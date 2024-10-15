@@ -1,0 +1,119 @@
+/* src/App.css */
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+
+.item-display {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.dog-image {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dog-facts {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.dog-facts p {
+  margin: 5px 0;
+}
+
+.attributes {
+  margin-top: 10px;
+}
+
+.attributes span {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #e0e4e8;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ban-list {
+  position: absolute;
+  right: 20px;
+  width: 200px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.ban-list h3 {
+  margin-bottom: 10px;
+}
+
+.ban-list button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.history-list {
+  position: absolute;
+  left: 20px;
+  width: 200px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.history-list h3 {
+  margin-bottom: 10px;
+}
+
+.history-list p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Discover Button Styling */
+.discover-button {
+  margin-top: 20px;
+  background-color: #ffbb00;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.discover-button:hover {
+  background-color: #ff9900;
+}
+
+.dog-facts {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #f4f4f4;
+  text-align: left;
+}
