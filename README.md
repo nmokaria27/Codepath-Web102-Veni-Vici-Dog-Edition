@@ -30,9 +30,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/nmokaria27/Codepath-Web102-Veni-Vici-Dog-Edition/blob/main/VVD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
